@@ -21,7 +21,7 @@ function fetchWeatherData(location) {
 function displayWeatherData(data) {
     const weatherDataHTML = `
         <h2>Current Weather in ${data.name}</h2>
-        <p>Temperature: ${data.main.temp}°C</p>
+        <p>Temperature: ${data.main.temp}°F</p>
         <p>Weather Conditions: ${data.weather[0].description}</p>
         <p>Humidity: ${data.main.humidity}%</p>
         <p>Wind Speed: ${data.wind.speed} m/s</p>
