@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY';
+const apiKey = 'e85735a594ad8bfb20c81c4487656b2f';
 const locationInput = document.getElementById('location');
 const fetchWeatherButton = document.getElementById('fetch-weather');
 const weatherDataDiv = document.getElementById('weather-data');
@@ -11,7 +11,7 @@ fetchWeatherButton.addEventListener('click', () => {
 });
 
 function fetchWeatherData(location) {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}`;
+    const url = "https://api.openweathermap.org/data/2.5/weather?q=Goa&appid=e85735a594ad8bfb20c81c4487656b2f";
     fetch(url)
         .then(response => response.json())
         .then(data => displayWeatherData(data))
