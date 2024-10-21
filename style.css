@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#location {
+    padding: 10px;
+    font-size: 18px;
+}
+
+#fetch-weather {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#fetch-weather:hover {
+    background-color: #444;
+}
+
+#weather-data {
+    margin-top: 20px;
+}
